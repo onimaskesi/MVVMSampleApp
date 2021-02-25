@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="true">MVVM Sample App</string>
+    <string name="password_edit_text_hint" translatable="true">password</string>
+    <string name="confirm_password_edit_text_hint" translatable="true">confirm password</string>
+    <string name="forget_password_TV_desc" translatable="true">Forget Password?</string>
+    <string name="sign_in_button_desc" translatable="true">Sign In</string>
+    <string name="sign_up_TV_desc" translatable="true">Sign Up Here</string>
+    <string name="sign_up_button_desc" translatable="true">Sign Up</string>
+    <string name="sign_in_TV_desc" translatable="true">Sign In Here</string>
+</resources>
