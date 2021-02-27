@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]

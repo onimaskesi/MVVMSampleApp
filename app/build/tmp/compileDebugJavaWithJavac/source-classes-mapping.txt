@@ -1,0 +1,27 @@
+com/onimaskesi/mvvmsampleapp/BuildConfig.java
+ com.onimaskesi.mvvmsampleapp.BuildConfig
+com/onimaskesi/mvvmsampleapp/DataBinderMapperImpl.java
+ com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl
+ com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl$InnerBrLookup
+ com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl$InnerLayoutIdLookup
+com/onimaskesi/mvvmsampleapp/BR.java
+ com.onimaskesi.mvvmsampleapp.BR
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBindingImpl.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$1
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$2
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$OnClickListenerImpl
+com/onimaskesi/mvvmsampleapp/DataBindingTriggerClass.java
+ com.onimaskesi.mvvmsampleapp.DataBindingTriggerClass
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBinding.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBindingImpl.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBindingImpl
+com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBinding.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBinding
