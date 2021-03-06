@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.onimaskesi.mvvmsampleapp.R
+import com.onimaskesi.mvvmsampleapp.data.db.entities.User
 import com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
-import com.onimaskesi.mvvmsampleapp.util.toast
+import com.onimaskesi.mvvmsampleapp.util.*
+import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() , AuthListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,14 +25,17 @@ class LoginActivity : AppCompatActivity() , AuthListener {
     }
 
     override fun onStarted() {
-        toast("Login Start")
+        progress_bar.show()
     }
 
-    override fun onSuccess() {
-        toast("Login Success")
+    override fun onSuccess(user: User) {
+        progress_bar.hide()
+        toast("${user.name} is Logged In!")
+
     }
 
     override fun onFailure(message: String) {
+        progress_bar.hide()
         toast(message)
     }
 }

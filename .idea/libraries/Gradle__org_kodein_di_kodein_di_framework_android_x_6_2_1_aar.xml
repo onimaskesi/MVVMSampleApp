@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: org.kodein.di:kodein-di-framework-android-x:6.2.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f9cd72d2849da83664a83c0a0773641/jetified-kodein-di-framework-android-x-6.2.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f9cd72d2849da83664a83c0a0773641/jetified-kodein-di-framework-android-x-6.2.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f9cd72d2849da83664a83c0a0773641/jetified-kodein-di-framework-android-x-6.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/186472df2ac0a3e83d14c971aa30775e/kodein-di-framework-android-x-6.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/186472df2ac0a3e83d14c971aa30775e/kodein-di-framework-android-x-6.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/186472df2ac0a3e83d14c971aa30775e/kodein-di-framework-android-x-6.2.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

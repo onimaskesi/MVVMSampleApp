@@ -1,27 +1,623 @@
+androidx/transition/R.java
+ androidx.transition.R
+ androidx.transition.R$anim
+ androidx.transition.R$attr
+ androidx.transition.R$bool
+ androidx.transition.R$color
+ androidx.transition.R$dimen
+ androidx.transition.R$drawable
+ androidx.transition.R$id
+ androidx.transition.R$integer
+ androidx.transition.R$layout
+ androidx.transition.R$string
+ androidx.transition.R$style
+ androidx.transition.R$styleable
 com/onimaskesi/mvvmsampleapp/BuildConfig.java
  com.onimaskesi.mvvmsampleapp.BuildConfig
-com/onimaskesi/mvvmsampleapp/DataBinderMapperImpl.java
- com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl
- com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl$InnerBrLookup
- com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl$InnerLayoutIdLookup
-com/onimaskesi/mvvmsampleapp/BR.java
- com.onimaskesi.mvvmsampleapp.BR
+androidx/print/R.java
+ androidx.print.R
+androidx/activity/ktx/R.java
+ androidx.activity.ktx.R
+ androidx.activity.ktx.R$attr
+ androidx.activity.ktx.R$color
+ androidx.activity.ktx.R$dimen
+ androidx.activity.ktx.R$drawable
+ androidx.activity.ktx.R$id
+ androidx.activity.ktx.R$integer
+ androidx.activity.ktx.R$layout
+ androidx.activity.ktx.R$string
+ androidx.activity.ktx.R$style
+ androidx.activity.ktx.R$styleable
+androidx/vectordrawable/R.java
+ androidx.vectordrawable.R
+ androidx.vectordrawable.R$attr
+ androidx.vectordrawable.R$color
+ androidx.vectordrawable.R$dimen
+ androidx.vectordrawable.R$drawable
+ androidx.vectordrawable.R$id
+ androidx.vectordrawable.R$integer
+ androidx.vectordrawable.R$layout
+ androidx.vectordrawable.R$string
+ androidx.vectordrawable.R$style
+ androidx.vectordrawable.R$styleable
+androidx/lifecycle/livedata/core/R.java
+ androidx.lifecycle.livedata.core.R
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
+androidx/appcompat/resources/R.java
+ androidx.appcompat.resources.R
+ androidx.appcompat.resources.R$attr
+ androidx.appcompat.resources.R$color
+ androidx.appcompat.resources.R$dimen
+ androidx.appcompat.resources.R$drawable
+ androidx.appcompat.resources.R$id
+ androidx.appcompat.resources.R$integer
+ androidx.appcompat.resources.R$layout
+ androidx.appcompat.resources.R$string
+ androidx.appcompat.resources.R$style
+ androidx.appcompat.resources.R$styleable
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/arch/core/R.java
+ androidx.arch.core.R
+androidx/fragment/R.java
+ androidx.fragment.R
+ androidx.fragment.R$anim
+ androidx.fragment.R$attr
+ androidx.fragment.R$color
+ androidx.fragment.R$dimen
+ androidx.fragment.R$drawable
+ androidx.fragment.R$id
+ androidx.fragment.R$integer
+ androidx.fragment.R$layout
+ androidx.fragment.R$string
+ androidx.fragment.R$style
+ androidx.fragment.R$styleable
+androidx/savedstate/R.java
+ androidx.savedstate.R
+org/kodein/di/android/R.java
+ org.kodein.di.android.R
+androidx/navigation/R.java
+ androidx.navigation.R
+ androidx.navigation.R$attr
+ androidx.navigation.R$color
+ androidx.navigation.R$dimen
+ androidx.navigation.R$drawable
+ androidx.navigation.R$id
+ androidx.navigation.R$integer
+ androidx.navigation.R$layout
+ androidx.navigation.R$string
+ androidx.navigation.R$style
+ androidx.navigation.R$styleable
+androidx/navigation/common/ktx/R.java
+ androidx.navigation.common.ktx.R
+ androidx.navigation.common.ktx.R$attr
+ androidx.navigation.common.ktx.R$color
+ androidx.navigation.common.ktx.R$dimen
+ androidx.navigation.common.ktx.R$drawable
+ androidx.navigation.common.ktx.R$id
+ androidx.navigation.common.ktx.R$integer
+ androidx.navigation.common.ktx.R$layout
+ androidx.navigation.common.ktx.R$string
+ androidx.navigation.common.ktx.R$style
+ androidx.navigation.common.ktx.R$styleable
+androidx/asynclayoutinflater/R.java
+ androidx.asynclayoutinflater.R
+ androidx.asynclayoutinflater.R$attr
+ androidx.asynclayoutinflater.R$color
+ androidx.asynclayoutinflater.R$dimen
+ androidx.asynclayoutinflater.R$drawable
+ androidx.asynclayoutinflater.R$id
+ androidx.asynclayoutinflater.R$integer
+ androidx.asynclayoutinflater.R$layout
+ androidx.asynclayoutinflater.R$string
+ androidx.asynclayoutinflater.R$style
+ androidx.asynclayoutinflater.R$styleable
+androidx/room/ktx/R.java
+ androidx.room.ktx.R
+androidx/interpolator/R.java
+ androidx.interpolator.R
+androidx/core/R.java
+ androidx.core.R
+ androidx.core.R$attr
+ androidx.core.R$color
+ androidx.core.R$dimen
+ androidx.core.R$drawable
+ androidx.core.R$id
+ androidx.core.R$integer
+ androidx.core.R$layout
+ androidx.core.R$string
+ androidx.core.R$style
+ androidx.core.R$styleable
+androidx/preference/ktx/R.java
+ androidx.preference.ktx.R
+ androidx.preference.ktx.R$anim
+ androidx.preference.ktx.R$attr
+ androidx.preference.ktx.R$bool
+ androidx.preference.ktx.R$color
+ androidx.preference.ktx.R$dimen
+ androidx.preference.ktx.R$drawable
+ androidx.preference.ktx.R$id
+ androidx.preference.ktx.R$integer
+ androidx.preference.ktx.R$interpolator
+ androidx.preference.ktx.R$layout
+ androidx.preference.ktx.R$string
+ androidx.preference.ktx.R$style
+ androidx.preference.ktx.R$styleable
+androidx/navigation/ui/ktx/R.java
+ androidx.navigation.ui.ktx.R
+ androidx.navigation.ui.ktx.R$anim
+ androidx.navigation.ui.ktx.R$animator
+ androidx.navigation.ui.ktx.R$attr
+ androidx.navigation.ui.ktx.R$bool
+ androidx.navigation.ui.ktx.R$color
+ androidx.navigation.ui.ktx.R$dimen
+ androidx.navigation.ui.ktx.R$drawable
+ androidx.navigation.ui.ktx.R$id
+ androidx.navigation.ui.ktx.R$integer
+ androidx.navigation.ui.ktx.R$interpolator
+ androidx.navigation.ui.ktx.R$layout
+ androidx.navigation.ui.ktx.R$string
+ androidx.navigation.ui.ktx.R$style
+ androidx.navigation.ui.ktx.R$styleable
+androidx/activity/R.java
+ androidx.activity.R
+ androidx.activity.R$attr
+ androidx.activity.R$color
+ androidx.activity.R$dimen
+ androidx.activity.R$drawable
+ androidx.activity.R$id
+ androidx.activity.R$integer
+ androidx.activity.R$layout
+ androidx.activity.R$string
+ androidx.activity.R$style
+ androidx.activity.R$styleable
+androidx/recyclerview/R.java
+ androidx.recyclerview.R
+ androidx.recyclerview.R$attr
+ androidx.recyclerview.R$color
+ androidx.recyclerview.R$dimen
+ androidx.recyclerview.R$drawable
+ androidx.recyclerview.R$id
+ androidx.recyclerview.R$integer
+ androidx.recyclerview.R$layout
+ androidx.recyclerview.R$string
+ androidx.recyclerview.R$style
+ androidx.recyclerview.R$styleable
+androidx/preference/R.java
+ androidx.preference.R
+ androidx.preference.R$anim
+ androidx.preference.R$attr
+ androidx.preference.R$bool
+ androidx.preference.R$color
+ androidx.preference.R$dimen
+ androidx.preference.R$drawable
+ androidx.preference.R$id
+ androidx.preference.R$integer
+ androidx.preference.R$interpolator
+ androidx.preference.R$layout
+ androidx.preference.R$string
+ androidx.preference.R$style
+ androidx.preference.R$styleable
+androidx/databinding/library/baseAdapters/R.java
+ androidx.databinding.library.baseAdapters.R
+ androidx.databinding.library.baseAdapters.R$id
+androidx/drawerlayout/R.java
+ androidx.drawerlayout.R
+ androidx.drawerlayout.R$attr
+ androidx.drawerlayout.R$color
+ androidx.drawerlayout.R$dimen
+ androidx.drawerlayout.R$drawable
+ androidx.drawerlayout.R$id
+ androidx.drawerlayout.R$integer
+ androidx.drawerlayout.R$layout
+ androidx.drawerlayout.R$string
+ androidx.drawerlayout.R$style
+ androidx.drawerlayout.R$styleable
+com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBinding.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
+androidx/versionedparcelable/R.java
+ androidx.versionedparcelable.R
+com/xwray/groupie/databinding/R.java
+ com.xwray.groupie.databinding.R
+androidx/lifecycle/ktx/R.java
+ androidx.lifecycle.ktx.R
+org/kodein/di/android/x/R.java
+ org.kodein.di.android.x.R
+ org.kodein.di.android.x.R$anim
+ org.kodein.di.android.x.R$attr
+ org.kodein.di.android.x.R$bool
+ org.kodein.di.android.x.R$color
+ org.kodein.di.android.x.R$dimen
+ org.kodein.di.android.x.R$drawable
+ org.kodein.di.android.x.R$id
+ org.kodein.di.android.x.R$integer
+ org.kodein.di.android.x.R$layout
+ org.kodein.di.android.x.R$string
+ org.kodein.di.android.x.R$style
+ org.kodein.di.android.x.R$styleable
+com/onimaskesi/mvvmsampleapp/DataBindingInfo.java
+ com.onimaskesi.mvvmsampleapp.DataBindingInfo
+androidx/sqlite/db/framework/R.java
+ androidx.sqlite.db.framework.R
+androidx/media/R.java
+ androidx.media.R
+ androidx.media.R$attr
+ androidx.media.R$color
+ androidx.media.R$dimen
+ androidx.media.R$drawable
+ androidx.media.R$id
+ androidx.media.R$integer
+ androidx.media.R$layout
+ androidx.media.R$string
+ androidx.media.R$style
+ androidx.media.R$styleable
+androidx/core/ktx/R.java
+ androidx.core.ktx.R
+ androidx.core.ktx.R$attr
+ androidx.core.ktx.R$color
+ androidx.core.ktx.R$dimen
+ androidx.core.ktx.R$drawable
+ androidx.core.ktx.R$id
+ androidx.core.ktx.R$integer
+ androidx.core.ktx.R$layout
+ androidx.core.ktx.R$string
+ androidx.core.ktx.R$style
+ androidx.core.ktx.R$styleable
+androidx/lifecycle/livedata/core/ktx/R.java
+ androidx.lifecycle.livedata.core.ktx.R
+androidx/lifecycle/viewmodel/R.java
+ androidx.lifecycle.viewmodel.R
 com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBindingImpl.java
  com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl
  com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$1
  com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$2
  com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$OnClickListenerImpl
-com/onimaskesi/mvvmsampleapp/DataBindingTriggerClass.java
- com.onimaskesi.mvvmsampleapp.DataBindingTriggerClass
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBinding.java
- com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
+com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBinding.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBinding
+androidx/legacy/v4/R.java
+ androidx.legacy.v4.R
+ androidx.legacy.v4.R$attr
+ androidx.legacy.v4.R$color
+ androidx.legacy.v4.R$dimen
+ androidx.legacy.v4.R$drawable
+ androidx.legacy.v4.R$id
+ androidx.legacy.v4.R$integer
+ androidx.legacy.v4.R$layout
+ androidx.legacy.v4.R$string
+ androidx.legacy.v4.R$style
+ androidx.legacy.v4.R$styleable
+androidx/navigation/common/R.java
+ androidx.navigation.common.R
+ androidx.navigation.common.R$attr
+ androidx.navigation.common.R$color
+ androidx.navigation.common.R$dimen
+ androidx.navigation.common.R$drawable
+ androidx.navigation.common.R$id
+ androidx.navigation.common.R$integer
+ androidx.navigation.common.R$layout
+ androidx.navigation.common.R$string
+ androidx.navigation.common.R$style
+ androidx.navigation.common.R$styleable
+androidx/databinding/library/R.java
+ androidx.databinding.library.R
+ androidx.databinding.library.R$id
+androidx/lifecycle/extensions/R.java
+ androidx.lifecycle.extensions.R
+ androidx.lifecycle.extensions.R$anim
+ androidx.lifecycle.extensions.R$attr
+ androidx.lifecycle.extensions.R$color
+ androidx.lifecycle.extensions.R$dimen
+ androidx.lifecycle.extensions.R$drawable
+ androidx.lifecycle.extensions.R$id
+ androidx.lifecycle.extensions.R$integer
+ androidx.lifecycle.extensions.R$layout
+ androidx.lifecycle.extensions.R$string
+ androidx.lifecycle.extensions.R$style
+ androidx.lifecycle.extensions.R$styleable
+androidx/cursoradapter/R.java
+ androidx.cursoradapter.R
+androidx/cardview/R.java
+ androidx.cardview.R
+ androidx.cardview.R$attr
+ androidx.cardview.R$color
+ androidx.cardview.R$dimen
+ androidx.cardview.R$style
+ androidx.cardview.R$styleable
+com/onimaskesi/mvvmsampleapp/data/db/AppDatabase_Impl.java
+ com.onimaskesi.mvvmsampleapp.data.db.AppDatabase_Impl
+ com.onimaskesi.mvvmsampleapp.data.db.AppDatabase_Impl$1
+androidx/coordinatorlayout/R.java
+ androidx.coordinatorlayout.R
+ androidx.coordinatorlayout.R$attr
+ androidx.coordinatorlayout.R$color
+ androidx.coordinatorlayout.R$dimen
+ androidx.coordinatorlayout.R$drawable
+ androidx.coordinatorlayout.R$id
+ androidx.coordinatorlayout.R$integer
+ androidx.coordinatorlayout.R$layout
+ androidx.coordinatorlayout.R$string
+ androidx.coordinatorlayout.R$style
+ androidx.coordinatorlayout.R$styleable
+androidx/swiperefreshlayout/R.java
+ androidx.swiperefreshlayout.R
+ androidx.swiperefreshlayout.R$attr
+ androidx.swiperefreshlayout.R$color
+ androidx.swiperefreshlayout.R$dimen
+ androidx.swiperefreshlayout.R$drawable
+ androidx.swiperefreshlayout.R$id
+ androidx.swiperefreshlayout.R$integer
+ androidx.swiperefreshlayout.R$layout
+ androidx.swiperefreshlayout.R$string
+ androidx.swiperefreshlayout.R$style
+ androidx.swiperefreshlayout.R$styleable
+androidx/appcompat/R.java
+ androidx.appcompat.R
+ androidx.appcompat.R$anim
+ androidx.appcompat.R$attr
+ androidx.appcompat.R$bool
+ androidx.appcompat.R$color
+ androidx.appcompat.R$dimen
+ androidx.appcompat.R$drawable
+ androidx.appcompat.R$id
+ androidx.appcompat.R$integer
+ androidx.appcompat.R$interpolator
+ androidx.appcompat.R$layout
+ androidx.appcompat.R$string
+ androidx.appcompat.R$style
+ androidx.appcompat.R$styleable
+androidx/lifecycle/livedata/R.java
+ androidx.lifecycle.livedata.R
+androidx/legacy/coreui/R.java
+ androidx.legacy.coreui.R
+ androidx.legacy.coreui.R$attr
+ androidx.legacy.coreui.R$color
+ androidx.legacy.coreui.R$dimen
+ androidx.legacy.coreui.R$drawable
+ androidx.legacy.coreui.R$id
+ androidx.legacy.coreui.R$integer
+ androidx.legacy.coreui.R$layout
+ androidx.legacy.coreui.R$string
+ androidx.legacy.coreui.R$style
+ androidx.legacy.coreui.R$styleable
+androidx/lifecycle/R.java
+ androidx.lifecycle.R
+com/onimaskesi/mvvmsampleapp/R.java
+ com.onimaskesi.mvvmsampleapp.R
+ com.onimaskesi.mvvmsampleapp.R$anim
+ com.onimaskesi.mvvmsampleapp.R$animator
+ com.onimaskesi.mvvmsampleapp.R$attr
+ com.onimaskesi.mvvmsampleapp.R$bool
+ com.onimaskesi.mvvmsampleapp.R$color
+ com.onimaskesi.mvvmsampleapp.R$dimen
+ com.onimaskesi.mvvmsampleapp.R$drawable
+ com.onimaskesi.mvvmsampleapp.R$id
+ com.onimaskesi.mvvmsampleapp.R$integer
+ com.onimaskesi.mvvmsampleapp.R$interpolator
+ com.onimaskesi.mvvmsampleapp.R$layout
+ com.onimaskesi.mvvmsampleapp.R$mipmap
+ com.onimaskesi.mvvmsampleapp.R$plurals
+ com.onimaskesi.mvvmsampleapp.R$string
+ com.onimaskesi.mvvmsampleapp.R$style
+ com.onimaskesi.mvvmsampleapp.R$styleable
+ com.onimaskesi.mvvmsampleapp.R$xml
+androidx/documentfile/R.java
+ androidx.documentfile.R
+com/onimaskesi/mvvmsampleapp/data/db/UserDao_Impl.java
+ com.onimaskesi.mvvmsampleapp.data.db.UserDao_Impl
+ com.onimaskesi.mvvmsampleapp.data.db.UserDao_Impl$1
+ com.onimaskesi.mvvmsampleapp.data.db.UserDao_Impl$2
+com/xwray/groupie/R.java
+ com.xwray.groupie.R
+ com.xwray.groupie.R$attr
+ com.xwray.groupie.R$color
+ com.xwray.groupie.R$dimen
+ com.xwray.groupie.R$drawable
+ com.xwray.groupie.R$id
+ com.xwray.groupie.R$integer
+ com.xwray.groupie.R$layout
+ com.xwray.groupie.R$string
+ com.xwray.groupie.R$style
+ com.xwray.groupie.R$styleable
+androidx/customview/R.java
+ androidx.customview.R
+ androidx.customview.R$attr
+ androidx.customview.R$color
+ androidx.customview.R$dimen
+ androidx.customview.R$drawable
+ androidx.customview.R$id
+ androidx.customview.R$integer
+ androidx.customview.R$layout
+ androidx.customview.R$string
+ androidx.customview.R$style
+ androidx.customview.R$styleable
+com/onimaskesi/mvvmsampleapp/DataBinderMapperImpl.java
+ com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl
+ com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl$InnerBrLookup
+ com.onimaskesi.mvvmsampleapp.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/lifecycle/viewmodel/ktx/R.java
+ androidx.lifecycle.viewmodel.ktx.R
+androidx/loader/R.java
+ androidx.loader.R
+ androidx.loader.R$attr
+ androidx.loader.R$color
+ androidx.loader.R$dimen
+ androidx.loader.R$drawable
+ androidx.loader.R$id
+ androidx.loader.R$integer
+ androidx.loader.R$layout
+ androidx.loader.R$string
+ androidx.loader.R$style
+ androidx.loader.R$styleable
+androidx/legacy/coreutils/R.java
+ androidx.legacy.coreutils.R
+ androidx.legacy.coreutils.R$attr
+ androidx.legacy.coreutils.R$color
+ androidx.legacy.coreutils.R$dimen
+ androidx.legacy.coreutils.R$drawable
+ androidx.legacy.coreutils.R$id
+ androidx.legacy.coreutils.R$integer
+ androidx.legacy.coreutils.R$layout
+ androidx.legacy.coreutils.R$string
+ androidx.legacy.coreutils.R$style
+ androidx.legacy.coreutils.R$styleable
+com/google/android/material/R.java
+ com.google.android.material.R
+ com.google.android.material.R$anim
+ com.google.android.material.R$animator
+ com.google.android.material.R$attr
+ com.google.android.material.R$bool
+ com.google.android.material.R$color
+ com.google.android.material.R$dimen
+ com.google.android.material.R$drawable
+ com.google.android.material.R$id
+ com.google.android.material.R$integer
+ com.google.android.material.R$interpolator
+ com.google.android.material.R$layout
+ com.google.android.material.R$plurals
+ com.google.android.material.R$string
+ com.google.android.material.R$style
+ com.google.android.material.R$styleable
+ com.google.android.material.R$xml
+androidx/annotation/experimental/R.java
+ androidx.annotation.experimental.R
+androidx/constraintlayout/widget/R.java
+ androidx.constraintlayout.widget.R
+ androidx.constraintlayout.widget.R$attr
+ androidx.constraintlayout.widget.R$id
+ androidx.constraintlayout.widget.R$styleable
+androidx/navigation/ktx/R.java
+ androidx.navigation.ktx.R
+ androidx.navigation.ktx.R$attr
+ androidx.navigation.ktx.R$color
+ androidx.navigation.ktx.R$dimen
+ androidx.navigation.ktx.R$drawable
+ androidx.navigation.ktx.R$id
+ androidx.navigation.ktx.R$integer
+ androidx.navigation.ktx.R$layout
+ androidx.navigation.ktx.R$string
+ androidx.navigation.ktx.R$style
+ androidx.navigation.ktx.R$styleable
+androidx/slidingpanelayout/R.java
+ androidx.slidingpanelayout.R
+ androidx.slidingpanelayout.R$attr
+ androidx.slidingpanelayout.R$color
+ androidx.slidingpanelayout.R$dimen
+ androidx.slidingpanelayout.R$drawable
+ androidx.slidingpanelayout.R$id
+ androidx.slidingpanelayout.R$integer
+ androidx.slidingpanelayout.R$layout
+ androidx.slidingpanelayout.R$string
+ androidx.slidingpanelayout.R$style
+ androidx.slidingpanelayout.R$styleable
+com/onimaskesi/mvvmsampleapp/BR.java
+ com.onimaskesi.mvvmsampleapp.BR
+androidx/navigation/fragment/R.java
+ androidx.navigation.fragment.R
+ androidx.navigation.fragment.R$anim
+ androidx.navigation.fragment.R$attr
+ androidx.navigation.fragment.R$color
+ androidx.navigation.fragment.R$dimen
+ androidx.navigation.fragment.R$drawable
+ androidx.navigation.fragment.R$id
+ androidx.navigation.fragment.R$integer
+ androidx.navigation.fragment.R$layout
+ androidx.navigation.fragment.R$string
+ androidx.navigation.fragment.R$style
+ androidx.navigation.fragment.R$styleable
+androidx/lifecycle/process/R.java
+ androidx.lifecycle.process.R
+androidx/sqlite/db/R.java
+ androidx.sqlite.db.R
+androidx/lifecycle/service/R.java
+ androidx.lifecycle.service.R
+androidx/navigation/fragment/ktx/R.java
+ androidx.navigation.fragment.ktx.R
+ androidx.navigation.fragment.ktx.R$anim
+ androidx.navigation.fragment.ktx.R$attr
+ androidx.navigation.fragment.ktx.R$color
+ androidx.navigation.fragment.ktx.R$dimen
+ androidx.navigation.fragment.ktx.R$drawable
+ androidx.navigation.fragment.ktx.R$id
+ androidx.navigation.fragment.ktx.R$integer
+ androidx.navigation.fragment.ktx.R$layout
+ androidx.navigation.fragment.ktx.R$string
+ androidx.navigation.fragment.ktx.R$style
+ androidx.navigation.fragment.ktx.R$styleable
+androidx/navigation/ui/R.java
+ androidx.navigation.ui.R
+ androidx.navigation.ui.R$anim
+ androidx.navigation.ui.R$animator
+ androidx.navigation.ui.R$attr
+ androidx.navigation.ui.R$bool
+ androidx.navigation.ui.R$color
+ androidx.navigation.ui.R$dimen
+ androidx.navigation.ui.R$drawable
+ androidx.navigation.ui.R$id
+ androidx.navigation.ui.R$integer
+ androidx.navigation.ui.R$interpolator
+ androidx.navigation.ui.R$layout
+ androidx.navigation.ui.R$string
+ androidx.navigation.ui.R$style
+ androidx.navigation.ui.R$styleable
+androidx/viewpager/R.java
+ androidx.viewpager.R
+ androidx.viewpager.R$attr
+ androidx.viewpager.R$color
+ androidx.viewpager.R$dimen
+ androidx.viewpager.R$drawable
+ androidx.viewpager.R$id
+ androidx.viewpager.R$integer
+ androidx.viewpager.R$layout
+ androidx.viewpager.R$string
+ androidx.viewpager.R$style
+ androidx.viewpager.R$styleable
+androidx/localbroadcastmanager/R.java
+ androidx.localbroadcastmanager.R
+com/xwray/groupie/kotlinandroidextensions/R.java
+ com.xwray.groupie.kotlinandroidextensions.R
+androidx/fragment/ktx/R.java
+ androidx.fragment.ktx.R
+ androidx.fragment.ktx.R$anim
+ androidx.fragment.ktx.R$attr
+ androidx.fragment.ktx.R$color
+ androidx.fragment.ktx.R$dimen
+ androidx.fragment.ktx.R$drawable
+ androidx.fragment.ktx.R$id
+ androidx.fragment.ktx.R$integer
+ androidx.fragment.ktx.R$layout
+ androidx.fragment.ktx.R$string
+ androidx.fragment.ktx.R$style
+ androidx.fragment.ktx.R$styleable
+androidx/room/R.java
+ androidx.room.R
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
 com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBindingImpl.java
  com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBindingImpl
-com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBinding.java
- com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBinding
+androidx/lifecycle/viewmodel/savedstate/R.java
+ androidx.lifecycle.viewmodel.savedstate.R
+androidx/vectordrawable/animated/R.java
+ androidx.vectordrawable.animated.R
+ androidx.vectordrawable.animated.R$attr
+ androidx.vectordrawable.animated.R$color
+ androidx.vectordrawable.animated.R$dimen
+ androidx.vectordrawable.animated.R$drawable
+ androidx.vectordrawable.animated.R$id
+ androidx.vectordrawable.animated.R$integer
+ androidx.vectordrawable.animated.R$layout
+ androidx.vectordrawable.animated.R$string
+ androidx.vectordrawable.animated.R$style
+ androidx.vectordrawable.animated.R$styleable
+androidx/viewpager2/R.java
+ androidx.viewpager2.R
+ androidx.viewpager2.R$attr
+ androidx.viewpager2.R$color
+ androidx.viewpager2.R$dimen
+ androidx.viewpager2.R$drawable
+ androidx.viewpager2.R$id
+ androidx.viewpager2.R$integer
+ androidx.viewpager2.R$layout
+ androidx.viewpager2.R$string
+ androidx.viewpager2.R$style
+ androidx.viewpager2.R$styleable

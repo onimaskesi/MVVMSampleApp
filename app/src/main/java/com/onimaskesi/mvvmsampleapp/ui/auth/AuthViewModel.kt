@@ -1,8 +1,9 @@
 package com.onimaskesi.mvvmsampleapp.ui.auth
 
-import android.util.Log
 import android.view.View
 import androidx.lifecycle.ViewModel
+import com.onimaskesi.mvvmsampleapp.data.repositories.UserRepository
+import com.onimaskesi.mvvmsampleapp.util.Coroutines
 
 class AuthViewModel : ViewModel() {
     var email: String? = null
@@ -17,8 +18,17 @@ class AuthViewModel : ViewModel() {
             return
         }
 
-        //seccess
-        authListener?.onSuccess()
+        Coroutines.main{
+            val response = UserRepository().userLogin(email!!, password!!)
+
+            if(response.isSuccessful){
+                authListener?.onSuccess(response.body()?.user!!)
+            } else {
+                authListener?.onFailure("Error Code: ${response.code()}")
+            }
+
+        }
+
 
     }
 }

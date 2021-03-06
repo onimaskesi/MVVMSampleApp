@@ -96,7 +96,7 @@ public class ActivityLoginBindingImpl extends ActivityLoginBinding  {
             , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[8]
             );
-        this.buttonSignIn.setTag(null);
+        this.buttonSignİn.setTag(null);
         this.editTextEmail.setTag(null);
         this.editTextPassword.setTag(null);
         this.rootLayout.setTag(null);
@@ -180,7 +180,7 @@ public class ActivityLoginBindingImpl extends ActivityLoginBinding  {
         if ((dirtyFlags & 0x3L) != 0) {
             // api target 1
 
-            this.buttonSignIn.setOnClickListener(viewModelOnLoginButtonClickAndroidViewViewOnClickListener);
+            this.buttonSignİn.setOnClickListener(viewModelOnLoginButtonClickAndroidViewViewOnClickListener);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.editTextEmail, viewModelEmail);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.editTextPassword, viewModelPassword);
         }
