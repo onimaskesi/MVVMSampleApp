@@ -40,16 +40,16 @@
         "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\083376fadc71b0c5ec2b2eb87ba55b7d\\material-1.2.0-alpha06\\res\\color\\mtrl_chip_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_navigation_item_text_color.xml.flat",
-        "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\083376fadc71b0c5ec2b2eb87ba55b7d\\material-1.2.0-alpha06\\res\\color\\mtrl_navigation_item_text_color.xml"
+        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\99f43c0d988923529be6737697b036d3\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\99f43c0d988923529be6737697b036d3\\appcompat-1.1.0\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\99f43c0d988923529be6737697b036d3\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_navigation_item_text_color.xml.flat",
+        "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\083376fadc71b0c5ec2b2eb87ba55b7d\\material-1.2.0-alpha06\\res\\color\\mtrl_navigation_item_text_color.xml"
     },
     {
         "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_thumb_color.xml.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\99f43c0d988923529be6737697b036d3\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
-        "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\083376fadc71b0c5ec2b2eb87ba55b7d\\material-1.2.0-alpha06\\res\\color\\mtrl_tabs_ripple_color.xml"
-    },
-    {
         "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\99f43c0d988923529be6737697b036d3\\appcompat-1.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
+        "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\083376fadc71b0c5ec2b2eb87ba55b7d\\material-1.2.0-alpha06\\res\\color\\mtrl_tabs_ripple_color.xml"
     },
     {
         "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -2270,6 +2270,10 @@
     {
         "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Kral\\.gradle\\caches\\transforms-2\\files-2.1\\99f43c0d988923529be6737697b036d3\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\Kral\\Desktop\\Android\\MVVMSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",

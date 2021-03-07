@@ -2,6 +2,7 @@ package com.onimaskesi.mvvmsampleapp.data.db;
 
 import android.database.Cursor;
 import androidx.lifecycle.LiveData;
+import androidx.room.CoroutinesRoom;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
@@ -11,10 +12,13 @@ import androidx.sqlite.db.SupportSQLiteStatement;
 import com.onimaskesi.mvvmsampleapp.data.db.entities.User;
 import java.lang.Exception;
 import java.lang.Integer;
+import java.lang.Long;
+import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.concurrent.Callable;
+import kotlin.coroutines.Continuation;
 
 @SuppressWarnings({"unchecked", "deprecation"})
 public final class UserDao_Impl implements UserDao {
@@ -73,16 +77,20 @@ public final class UserDao_Impl implements UserDao {
   }
 
   @Override
-  public long upsert(final User user) {
-    __db.assertNotSuspendingTransaction();
-    __db.beginTransaction();
-    try {
-      long _result = __insertionAdapterOfUser.insertAndReturnId(user);
-      __db.setTransactionSuccessful();
-      return _result;
-    } finally {
-      __db.endTransaction();
-    }
+  public Object upsert(final User user, final Continuation<? super Long> p1) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Long>() {
+      @Override
+      public Long call() throws Exception {
+        __db.beginTransaction();
+        try {
+          long _result = __insertionAdapterOfUser.insertAndReturnId(user);
+          __db.setTransactionSuccessful();
+          return _result;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, p1);
   }
 
   @Override
