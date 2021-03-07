@@ -214,18 +214,8 @@ androidx/drawerlayout/R.java
  androidx.drawerlayout.R$string
  androidx.drawerlayout.R$style
  androidx.drawerlayout.R$styleable
-androidx/vectordrawable/animated/R.java
- androidx.vectordrawable.animated.R
- androidx.vectordrawable.animated.R$attr
- androidx.vectordrawable.animated.R$color
- androidx.vectordrawable.animated.R$dimen
- androidx.vectordrawable.animated.R$drawable
- androidx.vectordrawable.animated.R$id
- androidx.vectordrawable.animated.R$integer
- androidx.vectordrawable.animated.R$layout
- androidx.vectordrawable.animated.R$string
- androidx.vectordrawable.animated.R$style
- androidx.vectordrawable.animated.R$styleable
+com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBinding.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
 androidx/versionedparcelable/R.java
  androidx.versionedparcelable.R
 com/xwray/groupie/databinding/R.java
@@ -278,18 +268,11 @@ androidx/lifecycle/livedata/core/ktx/R.java
  androidx.lifecycle.livedata.core.ktx.R
 androidx/lifecycle/viewmodel/R.java
  androidx.lifecycle.viewmodel.R
-androidx/viewpager2/R.java
- androidx.viewpager2.R
- androidx.viewpager2.R$attr
- androidx.viewpager2.R$color
- androidx.viewpager2.R$dimen
- androidx.viewpager2.R$drawable
- androidx.viewpager2.R$id
- androidx.viewpager2.R$integer
- androidx.viewpager2.R$layout
- androidx.viewpager2.R$string
- androidx.viewpager2.R$style
- androidx.viewpager2.R$styleable
+com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBindingImpl.java
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$1
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$2
+ com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$OnClickListenerImpl
 com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBinding.java
  com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBinding
 androidx/legacy/v4/R.java
@@ -615,10 +598,27 @@ com/onimaskesi/mvvmsampleapp/databinding/ActivitySignupBindingImpl.java
  com.onimaskesi.mvvmsampleapp.databinding.ActivitySignupBindingImpl
 androidx/lifecycle/viewmodel/savedstate/R.java
  androidx.lifecycle.viewmodel.savedstate.R
-com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBindingImpl.java
- com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl
- com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$1
- com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$2
- com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBindingImpl$OnClickListenerImpl
-com/onimaskesi/mvvmsampleapp/databinding/ActivityLoginBinding.java
- com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
+androidx/vectordrawable/animated/R.java
+ androidx.vectordrawable.animated.R
+ androidx.vectordrawable.animated.R$attr
+ androidx.vectordrawable.animated.R$color
+ androidx.vectordrawable.animated.R$dimen
+ androidx.vectordrawable.animated.R$drawable
+ androidx.vectordrawable.animated.R$id
+ androidx.vectordrawable.animated.R$integer
+ androidx.vectordrawable.animated.R$layout
+ androidx.vectordrawable.animated.R$string
+ androidx.vectordrawable.animated.R$style
+ androidx.vectordrawable.animated.R$styleable
+androidx/viewpager2/R.java
+ androidx.viewpager2.R
+ androidx.viewpager2.R$attr
+ androidx.viewpager2.R$color
+ androidx.viewpager2.R$dimen
+ androidx.viewpager2.R$drawable
+ androidx.viewpager2.R$id
+ androidx.viewpager2.R$integer
+ androidx.viewpager2.R$layout
+ androidx.viewpager2.R$string
+ androidx.viewpager2.R$style
+ androidx.viewpager2.R$styleable
