@@ -1,6 +1,7 @@
 package com.onimaskesi.mvvmsampleapp.data.network
 
 import com.onimaskesi.mvvmsampleapp.data.network.responses.AuthResponse
+import okhttp3.OkHttpClient
 import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.Response
@@ -22,12 +23,20 @@ interface RestApi {
     ) : Response<AuthResponse>
 
     companion object{
-        operator fun invoke() : RestApi {
+        operator fun invoke(
+            networkConnectionInterceptor: NetworkConnectionInterceptor
+        ) : RestApi {
+
+            val okkHttpClient = OkHttpClient.Builder()
+                .addInterceptor(networkConnectionInterceptor)
+                .build()
+
             return Retrofit.Builder()
-                    .baseUrl("https://api.simplifiedcoding.in/course-apis/mvvm/")
-                    .addConverterFactory(GsonConverterFactory.create())
-                    .build()
-                    .create(RestApi::class.java)
+                .client(okkHttpClient)
+                .baseUrl("https://api.simplifiedcoding.in/course-apis/mvvm/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+                .create(RestApi::class.java)
         }
     }
 

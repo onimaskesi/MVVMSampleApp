@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.0] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\9417d014ed48c7961192f1c9247d0a2d\databinding-adapters-3.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.0] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\ea9e3036e8379e235a639f9b4bc75e2c\databinding-runtime-3.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.xwray:groupie-kotlin-android-extensions:2.3.0] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\edcb7bbb6227da30c8896c77483b66b8\groupie-kotlin-android-extensions-2.3.0\AndroidManifest.xml:2:1-11:12
@@ -73,31 +73,35 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\a90c86bbeb2137d47e93c4709dea3487\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\73882ed11205184bf5e05be9d5445274\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\9207c8c29c844f7a39eb651048444341\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:6:5-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:8:5-25:19
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:9:5-26:19
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\083376fadc71b0c5ec2b2eb87ba55b7d\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\083376fadc71b0c5ec2b2eb87ba55b7d\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\bb988324a7ad78f7b76bd366471a5c2d\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -119,41 +123,41 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Kr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0-beta01] C:\Users\Kral\.gradle\caches\transforms-2\files-2.1\1ac9ad5c24c01cd618589ebb77ddc65e\core-1.3.0-beta01\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:12:9-41
 	tools:ignore
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:15:9-60
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:16:9-60
 	android:roundIcon
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:14:9-51
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:15:9-51
 activity#com.onimaskesi.mvvmsampleapp.ui.home.HomeActivity
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:16:9-67
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:17:9-67
 	android:name
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:16:19-55
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:17:19-55
 activity#com.onimaskesi.mvvmsampleapp.ui.auth.SignupActivity
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:17:9-60
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:18:9-60
 	android:name
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:17:19-57
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:18:19-57
 activity#com.onimaskesi.mvvmsampleapp.ui.auth.LoginActivity
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:18:19-56
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:19:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Kral\Desktop\Android\MVVMSampleApp\app\src\main\AndroidManifest.xml

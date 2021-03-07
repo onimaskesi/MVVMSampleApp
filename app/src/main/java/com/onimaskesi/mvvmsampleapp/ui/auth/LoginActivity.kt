@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.onimaskesi.mvvmsampleapp.R
 import com.onimaskesi.mvvmsampleapp.data.db.AppDatabase
 import com.onimaskesi.mvvmsampleapp.data.db.entities.User
+import com.onimaskesi.mvvmsampleapp.data.network.NetworkConnectionInterceptor
 import com.onimaskesi.mvvmsampleapp.data.network.RestApi
 import com.onimaskesi.mvvmsampleapp.data.repositories.UserRepository
 import com.onimaskesi.mvvmsampleapp.databinding.ActivityLoginBinding
@@ -21,7 +22,8 @@ class LoginActivity : AppCompatActivity() , AuthListener {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_login) remove for binding
 
-        val api = RestApi()
+        val networkConnectionInterceptor = NetworkConnectionInterceptor(this)
+        val api = RestApi(networkConnectionInterceptor)
         val db = AppDatabase(this)
         val repository = UserRepository(api, db)
         val factory = AuthViewModelFactory(repository)
